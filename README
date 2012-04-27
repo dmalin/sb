@@ -24,7 +24,7 @@ So...all thats left is to make the permissions correct.
 Run The Following Command:
 Note This is with the assumption that the user has chosen to place the sb utility in /usr/bin
 
-	 	sudo chmod +x /usr/bin/sb
+	 sudo chmod +x /usr/bin/sb
 
 
 4. Enjoy.	
