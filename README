@@ -15,8 +15,8 @@ the bash script as such
 	
 	echo $PATH
 
-	Take the sb file and copy it to one of the folders list in the output of the command above. It has a colon
-	delimitted list of fodlers that the path looks for binaries in.
+Take the sb file and copy it to one of the folders list in the output of the command above. It has a colon
+delimitted list of fodlers that the path looks for binaries in.
 
 3. Make it exectuable. 
 So...all thats left is to make the permissions correct. 
