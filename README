@@ -1,0 +1,28 @@
+sb Utility
+=======================
+Just like text mates wonderful mate . command just type sb . and you'll get your sublime`in on.
+
+
+## Installation
+1) First make sure that the bash script, the file sb exactly references your name of your sublime text. What is meant
+by this is that perhaps your sublimetext editor was named sublime-hasselhoff then accordingly you would need to edit
+the bash script as such
+
+		#!/bin/sh
+		open -a "sublime-hasselhoff" "$@"
+
+2) Place file in a folder that the path sees. To check what your path looks at just type the following.
+	
+		echo $PATH
+
+	Take the sb file and copy it to one of the folders list in the output of the command above. It has a colon
+	delimitted list of fodlers that the path looks for binaries in.
+
+3) Make it exectuable. So...all thats left is to make the permissions correct. Run The Following 
+	 This is with the assumption that the user has chosen to place the sb utility in /usr/bin
+
+
+	 	sudo chmod +x /usr/bin/sb
+
+
+4) Enjoy.	
